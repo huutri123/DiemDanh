@@ -1,0 +1,33 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#calendar .day {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#calendar .day.checked {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#calendar .day img {
+    width: 50px;
+    height: 50px;
+}
